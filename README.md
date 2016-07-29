@@ -8,4 +8,4 @@ A random conversation starter every week.
 No mentions, followers or algorithmic ad-ridden feeds. Keeping it simple for keeping it easy.
 
 ## License
-Open Source under the MIT License
+Open Source under the MIT License.
