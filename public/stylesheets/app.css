@@ -1,0 +1,212 @@
+h2 {
+    font-family: 'Raleway', sans-serif;
+}
+        
+form {
+    margin-bottom: 1.5em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+button {
+    border-radius: 2em;
+    border-style: hidden;
+    padding: 1.3em 3em 1.3em 3em;
+    background: white;
+    transition: 500ms all ease;
+}
+
+button:hover {
+    background: lightgrey;
+    transition: 500ms all ease;
+}
+
+button:active {
+    border: 1px solid #1A1A1A;
+}
+
+textarea {
+    background: #1A1A1A;
+    color: white;
+    border-radius: 2em;
+    border: hidden;
+    resize: none;
+    overflow: hidden;
+    line-height: 1.5em;
+    font-family: 'Raleway', sans-serif;
+    transition: 500ms all ease;
+    outline: 0;
+    margin-top: 2.5em;
+    margin-bottom: 1.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    text-align: center;
+/*    min-width: 15em;
+    max-width: 25em;*/
+}
+
+textarea:hover {
+    background: lightgrey;
+    color: #1A1A1A;
+    transition: 500ms all ease;
+    min-height: 15em;
+}
+            
+textarea:focus {
+    background: lightgrey;        
+    transition: 500ms all ease;
+    outline: 0;
+    color: #1A1A1A;
+    min-height: 15em;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: salmon;
+}
+
+header a:hover {
+    color: black;
+}
+
+/* Classes */
+
+.user-name {
+    font-weight: bold;
+}
+
+.big {
+    font-size: 3.5em;
+}
+
+.instructions {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.starter {
+    border: solid;
+    border-width: 2px;
+    min-height: 15em;
+}
+
+.starter-text {
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+.replies {
+    margin-top: 1.5em;
+}
+
+.reply-text {
+    font-family: 'Raleway', sans-serif;
+} 
+
+.details {
+    margin-bottom: 3.5em;
+    font-weight: bold;
+}
+
+.details ul {
+    overflow:hidden;
+/*    white-space:nowrap;*/
+}
+
+.details li {
+    display:inline;
+}
+ 
+.favs:hover {
+    color: salmon;
+}
+
+.end-point {
+    border-bottom: 1px solid #1A1A1A;
+    padding-bottom: 0.5em;
+}
+
+.inputs {
+    background: #1A1A1A;
+    color: white;
+    border-radius: 2em;
+    border: hidden;
+    min-height: 3.5em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    padding-left: 25%;
+    padding-right: 25%;
+    margin: 1.5em 0 1.5em 0;
+    font-family: 'Raleway', sans-serif;
+    transition: 500ms all ease;
+    outline: 0;
+}
+
+.inputs:hover {
+    background: lightgrey;
+    color: #1A1A1A;
+    transition: 500ms all ease;
+}
+            
+.inputs:focus {
+    background: lightgrey;        
+    transition: 500ms all ease;
+    outline: 0;
+    color: #1A1A1A;
+}
+
+/* This needs to be able to handle block text for editing */
+.long-form {
+    margin-top: 3.5em;
+    margin-bottom: 1.5em;
+    text-overflow: ellipsis;
+}
+
+.long-form:focus {
+    min-height: 15em;
+}
+
+/* Change this name special */
+.button {
+    border-radius: 2em;
+    margin-top: 5em;
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+    transition: 500ms all ease;
+}
+
+.button:hover {
+    opacity: 1;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+    transition: 500ms all ease;
+}
+
+/* For the Footer */
+.credits {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+    margin-top: 0.5em;
+    margin-bottom: 1.5em;
+}
+
+.credits a:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+
+/* Helpers */
+.spacer {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+
+
