@@ -78,6 +78,12 @@ header a:hover {
 
 /* Classes */
 
+.test-class {
+    font-size: 1em;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: -3em;
+}
+
 .user-name {
     font-weight: bold;
 }
@@ -208,5 +214,8 @@ header a:hover {
     padding-right: 1.5em;
 }
 
+/* Sections */
 
-
+.login-info {
+    font-size: 5em;
+}

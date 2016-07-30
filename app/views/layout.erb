@@ -16,6 +16,44 @@
     </head>
 
     <body>
-        <%= yield %>
+        <div class="container"> 
+
+            <header>
+                <div class="row">
+                    <div class="col-12 right test-class">
+                        <% if current_user %>
+                            <a href="/logout">
+                                Logout
+                            </a>
+                        <% else %>
+                            <a href="/login">
+                                Login
+                            </a>
+                            <a href="signup">
+                                Signup
+                            </a>
+                        <% end %>
+                    </div>
+                </div>
+                <div class="row center">
+                    <div class="col-12">
+                        <h1>
+                            <a href="file:///Users/Cherie/Sites/random-convos/index.html">
+                                Random Conversation Generator
+                            </a>
+                        </h1>
+                    </div>
+                </div>
+            </header>
+
+            <%= yield %>
+
+            <footer>
+                <div class="col-12 center credits">
+                    2016 <a href="https://github.com/ReginaExMachina">REGINAEXMACHINA</a>
+                </div>
+            </footer>
+
+        </div>
     </body>
 </html>
