@@ -1,0 +1,42 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <h2>Signup</h2>
+
+            <!-- Error messages go here -->
+            <%= @error_message if @error_message %>
+
+        </div>
+        
+        <div class="col-12">
+            
+            <form method="POST" action="/signup">
+                <div class="form-group">
+                    <label for="username" hidden="hidden">Username</label>
+                    <input class="inputs center" id="username" name="username" type="text" placeholder="User name" />
+                </div>
+                <div class="form-group">
+                    <label for="avatar_url" hidden="hidden">Quirky fact about yourself</label>
+                    <input class="inputs center" id="quirky_fact" name="quirky_fact" type="text" placeholder="Quirky fact about yourself" />
+                </div>
+                <div class="form-group">
+                    <label for="email" hidden="hidden">Email</label>
+                        <input class="inputs center" id="email" name="email" type="email" placeholder="Email" />
+                </div>
+                <div class="form-group">
+                    <label for="password" hidden="hidden">Password</label>
+                    <input class="inputs center" id="password" name="password" type="password" placeholder="Password" />
+                </div>
+        
+                <div class="col-6">
+                </div>
+        
+                <div class="col-2">
+                    <div class="form-group">
+                        <button type="submit">Signup</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
