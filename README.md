@@ -1,6 +1,8 @@
 # ConvoGen
 Getting everyone on the same page.
 
+![Convo Gen](convo-gen-screenshot.jpg?raw=true)
+
 ## What is it?
 A random conversation starter every week.
 
