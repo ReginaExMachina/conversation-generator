@@ -1,5 +1,5 @@
 # ConvoGen
-Gets everyone on the same page.
+Getting everyone on the same page.
 
 ## What is it?
 A random conversation starter every week.
