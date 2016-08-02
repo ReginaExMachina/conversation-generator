@@ -9,5 +9,8 @@ A random conversation starter every week.
 ## Less is more
 No mentions, followers or algorithmic ad-ridden feeds. Keeping it simple for keeping it easy.
 
+## Why is it?
+TBA
+
 ## License
 Open Source under the MIT License.
