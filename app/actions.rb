@@ -53,3 +53,10 @@ get '/about' do
 	# This is pure html, so is there a better way to render?
 	erb(:about)
 end
+
+
+# Makes header redirect to index
+
+get '/index' do
+	redirect(to('/'))
+end
